@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top: 50px;
+}
+header nav{
+    text-align: right;
+    background: #0D5C63;
+    position: fixed;
+    width: 100%;
+}
+header nav ul li{
+               display: inline-block;
+               padding: 10px 15px;
+              font-family: 'Roboto', sans-serif;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+.info{
+    margin-top: 10px;
+}
+.info img{
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+}
+.contactinfo{
+    padding-top: 75px;
+}
+.contactinfo h2 {
+    color: #0D5C63;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+.contactinfo p{
+    color: #0D5C63;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.summary{
+    margin-top: 30px;
+}
+.summary h2{
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px black;
+    background-color:burlywood ;
+    margin-bottom: 20px;
+}
+.summary h2::before{
+    content: '👇';
+    font-size: larger;
+    padding-right: 10px;
+}
+.summary ul li{
+    padding: 7px 0px;
+    color: #0D5C63;
+    font-weight: bolder;
+}
+.summary ul li{
+    background-color:beige ;
+    
+}
+.summary ul li::before{
+    content:'✍️';
+    font-size: larger;
+    padding-right: 20px;
+
+}
+.summary ul li::selection{
+    background-color: rgb(194, 160, 96);
+
+}
+.techstack h2::before{
+    content: '💻';
+    font-size: larger;
+    padding-right: 10px;
+}
+.techstack h2::after{
+    content: '💻';
+    font-size: larger;
+    padding-left: 10px;
+}
+.techstack h2{
+    margin-bottom: 20px;
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 20px;
+    background-color: burlywood ;
+}
+.techstack table{
+    background-color:beige;
+  
+}
+.techstack table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border-width: 2px;
+
+}
+.techstack table ,th,td{
+    padding: 10px;
+    color: #0D5C63;
+}
+.education h2 {
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: burlywood ;
+}
+.education h2::before{
+    content: '👨‍🎓';
+    font-size: larger;
+    padding-right: 10px;
+}
+.education h2::after{
+    content: '👨‍🎓';
+    font-size: larger;
+    padding-left: 10px;
+}
+.education table thead{
+    background-color: rosybrown;
+    border-collapse:collapse ;
+    border-style: ridge;
+   
+}
+.education table tbody{
+    background-color: rgb(227, 195, 195);
+    border-collapse:collapse ;
+}
+.education table,th,tr,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    border-width: 2px;
+    
+}
+.education table th,td{
+    padding: 10px;
+    color: #0D5C63;
+}
+.personal {
+  margin-top: 20px;
+    background-color:rgb(144, 213, 243);
+}
+.personal h2,p{
+    color: #0D5C63;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+.personal h2{
+    background-color: burlywood;
+    text-shadow: 1px 1px 1px black;
+}
+.personal h2::before{
+    content: '🙎‍♂️';
+    font-size: larger;
+    padding-right: 10px;
+}
+.personal h2::after{
+    content: '🙎‍♂️';
+    font-size: larger;
+    padding-left: 10px;
+}
+footer nav{
+  margin-top: 20px;
+  margin-bottom: 20px;
+   text-align: right;
+    background:burlywood;
+    font-size: larger;
+    font-weight: bolder;
+    width: 100%;
+   
+}
+footer span{
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px black;
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+
+}
+footer span::after{
+    content:'🙎‍♂️' ;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+footer a{
+    margin-right: 10px;
+    font-size: larger;
+}
+
